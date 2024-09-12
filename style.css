@@ -6,7 +6,7 @@
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background-color: rgb(137, 236, 190);
+  background-image: linear-gradient(to right, rgb(137, 173, 173), rgb(128, 128, 128),rgba(61, 198, 236, 0.616)); 
 }
 
 /* ------------------------- header ------------------------------------------------- */
