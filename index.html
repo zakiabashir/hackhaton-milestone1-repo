@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="top">
+          <div class="pic">
+            <img src="pic.jpg" alt="" />
+            
+          </div>
+
+          <div class="info">
+            <h3>Hi</h3>
+
+            <div class="name">
+              <p>I'm <strong>ZAKIA BASHIR</strong></p>
+              <h4>Front-End  and Back-End  Developer</h4>
+            </div>
+
+            <p><strong class="age">AGE</strong> 26</p>
+            <p>
+              <strong class="address">ADDRESS</strong> House#27,str#22, Sector#C QYUMAABBAD, KARACHI
+            </p>
+            <p><strong class="email">E-MAIL</strong> nshafeys0@gmail.com</p>
+            <p><strong class="phone">Phone</strong> +92 3007729505</p>
+            <p>
+              <strong class="job">Front End Developer</strong> till july
+              25,2024
+            </p>
+          </div>
+        </div>
+
+        <!-- links -->
+        <div class="links">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="sections">
+      <button onclick="showAllSections()">Section</button>
+    </div>
+
+    <div class="buttons">
+      <button onclick="toggleSection('education')">Education</button>
+      <button onclick="toggleSection('courses')">Other Courses</button>
+      <button onclick="toggleSection('languages')">Languages</button>
+      <button onclick="toggleSection('skills')">Skills</button>
+    </div>
+
+    <main>
+      <div class="main">
+        <div class="content-section education">
+          <h1>Education</h1>
+          <h3>BISE MULTAN</h3>
+          <p><strong>Matric in Science</strong></p>
+          <p>
+            Relevant Coursework: Biology, Chemistry, Physics 
+          </p>
+          <p>
+            Achievements: Active Member of the science, Top 5% in Class
+          </p>
+        </div>
+        <div class="content-section education">
+            <h1>Education</h1>
+            <h3>BISE MULTAN</h3>
+            <p><strong>Intermediate in Pre-Medical</strong></p>
+            <p>
+              Relevant Coursework: Biology, Chemistry, Physics 
+            </p>
+            <p>
+              Achievements: Active Member of the Pre-Medical, Top 5% in Class
+            </p>
+          </div>
+          <div class="content-section education">
+            <h1>Education</h1>
+            <h3>VU OF PAKISTAN</h3>
+            <p><strong>BACHLOR OF SCIENCE IN COMPUTER SCIENCE</strong></p>
+            <p>
+              Relevant Coursework: COMPUTER
+            </p>
+            <p>
+              Achievements: Active Member of the computer subject, Top 5% in Class
+            </p>
+          </div>
+          
+        <!-- Other Courses -->
+        <div class="content-section courses">
+          <h1>Other Courses</h1>
+          <h3>CYBERSECURITY</h3>
+          <p>
+           Ihave completed recently
+          </p>
+          <br>
+          <h3>Governor House Sindh (GIAIC)</h3>
+          <p>
+            I am currently enrolled in the "Cloud Computing and Generative
+            Artificial Intelligence" program at Governor House Sindh, refining
+            my skills in advanced technologies. This course empowers me to
+            integrate cutting-edge cloud solutions and AI-driven innovations
+            into development projects, optimizing workflows and enhancing user
+            experiences.
+          </p>
+        </div>
+
+        <div class="content-section languages">
+          <h1>Languages</h1>
+          <p>English</p>
+          <p>Urdu</p>
+          <p>SARAIKI</p>
+        </div>
+
+        <div class="content-section skills">
+          <h1>Skills</h1>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>Typescript</p>
+          <p>Javscript</p>
+          <p>Tailwind CSS</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">Made by: => ZAKIA BASHIR</div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="index.ts"></script>
+  </body>
+</html>
