@@ -274,6 +274,7 @@ footer {
   .info {
     width: unset;
     padding-bottom: 3rem;
+    padding-left: 1rem;
   }
   .info h3 {
     font-size: xx-large;
@@ -282,7 +283,7 @@ footer {
     padding: 10px;
   }
   .links {
-    height: 5rem;
+    height: 3rem;
   }
   /* ------------- main / button / footer -------------- */
   .main,
